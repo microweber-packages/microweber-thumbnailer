@@ -7,20 +7,8 @@ parameters:
 			path: src/Libs/PHPImageMagician/ImageLib.php
 
 		-
-			message: '#^Call to static method read\(\) on an unknown class Intervention\\Image\\Laravel\\Facades\\Image\.$#'
-			identifier: class.notFound
-			count: 1
-			path: src/Libs/PHPImageMagician/ImageLib.php
-
-		-
 			message: '#^Class MicroweberPackages\\Thumbnailer\\Libs\\PHPImageMagician\\PhpPsdReader does not have a constructor and must be instantiated without any parameters\.$#'
 			identifier: new.noConstructor
-			count: 1
-			path: src/Libs/PHPImageMagician/ImageLib.php
-
-		-
-			message: '#^Function get_file_extension not found\.$#'
-			identifier: function.notFound
 			count: 1
 			path: src/Libs/PHPImageMagician/ImageLib.php
 
